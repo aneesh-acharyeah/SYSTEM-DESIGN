@@ -1,10 +1,10 @@
 const display = document.getElementById("display");
-const buttons = document.querySelector(".btn");
+const buttons = document.querySelectorAll(".btn");
 
 let currentInput = "";
 
 buttons.forEach(button => {
-    button.addEventListener("click"), () => {
+    button.addEventListener("click", () => {
         const value = button.getAttribute("data-value");
 
         if (value === "C") {
@@ -25,6 +25,6 @@ buttons.forEach(button => {
             currentInput += value;
             display.textContent = currentInput;
         }
-    }
+    });
 
 });
