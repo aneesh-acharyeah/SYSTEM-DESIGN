@@ -1,0 +1,98 @@
+body {
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: #0f172a;
+    color: #f8fafc;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    min-height: 100vh;
+    padding: 2rem;
+}
+
+.container {
+    background: #1e293b;
+    padding: 2rem;
+    border-radius: 10px;
+    width: 100%;
+    max-width: 400px;
+}
+
+h2,
+h3 {
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+.balance h1 {
+    text-align: center;
+    margin: 0;
+    color: #22c55e;
+}
+
+.summary {
+    display: flex;
+    justify-content: space-between;
+    margin: 1rem 0;
+}
+
+.money {
+    font-size: 1.2rem;
+}
+
+.plus {
+    color: #22c55e;
+}
+
+.minus {
+    color: #ef4444;
+}
+
+.list {
+    list-style: none;
+    padding: 0;
+    margin-bottom: 1.5rem;
+}
+
+.list li {
+    background: #334155;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-right: 5px solid;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.list li.plus {
+    border-color: #22c55e;
+}
+
+.list li.minus {
+    border-color: #ef4444;
+}
+
+.list button {
+    background: transparent;
+    border: none;
+    color: #f87171;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+form input,
+form button {
+    width: 100%;
+    padding: 10px;
+    margin-top: 0.5rem;
+    border-radius: 6px;
+    border: none;
+    font-size: 1rem;
+}
+
+form button {
+    background: #2563eb;
+    color: white;
+    cursor: pointer;
+    margin-top: 1rem;
+}
