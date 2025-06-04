@@ -1,23 +1,23 @@
 body {
-    margin: 0;
-    font-family: Arial, sans-serif;
-    background-color: #f1f5f9;
-    color: #1e293b;
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f1f5f9;
+  color: #1e293b;
 }
 
 #progress-bar {
-    position: fixed;
-    top: 0;
-    left: 0;
-    height: 6px;
-    width: 0%;
-    background: #6366f1;
-    z-index: 999;
-    transition: width 0.1s ease;
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 6px;
+  width: 0%;
+  background: #6366f1;
+  z-index: 999;
+  transition: width 0.1s ease;
 }
 
 .content {
-    padding: 2rem;
-    max-width: 800px;
-    margin: 0 auto;
+  padding: 2rem;
+  max-width: 800px;
+  margin: 0 auto;
 }
