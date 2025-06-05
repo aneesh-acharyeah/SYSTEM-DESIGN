@@ -1,0 +1,56 @@
+body {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #f8fafc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    background-color: #1e293b;
+    padding: 2rem;
+    border-radius: 12px;
+    text-align: center;
+    width: 300px;
+    color: #f1f5f9;
+}
+
+h2 {
+    margin-bottom: 1rem;
+}
+
+.srambled-word {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+    color: #38bdf8;
+}
+
+input {
+    padding: 10px;
+    width: 100%;
+    margin-bottom: 1rem;
+    border-radius: 6px;
+    border: none;
+    font-size: 1rem;
+}
+
+button {
+    padding: 10px;
+    width: 100%;
+    background-color: #38bdf8;
+    color: #0f172a;
+    font-weight: bold;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    margin-bottom: 0.5rem;
+}
+
+.message {
+    font-size: 1rem;
+    margin: 1rem 0;
+    height: 1.5rem;
+}
