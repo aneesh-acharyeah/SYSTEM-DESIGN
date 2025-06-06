@@ -1,0 +1,42 @@
+:root {
+    --bg-color: #f9fafb;
+    --text-color: #1e293b;
+    --btn-bg: #e2e8f0;
+    --btn-text: #1e293b;
+}
+
+body.dark {
+    --bg-color: #1e293b;
+    --text-color: #f9fafb;
+    --btn-bg: #334155;
+    --btn-text: #f9fafb;
+}
+
+body {
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    transition: background 0.3s, color 0.3s;
+}
+
+.container {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 1rem
+}
+
+button {
+    padding: 10px 20px;
+    background: var(--btn-bg);
+    color: var(--btn-text);
+    border: none;
+    border-radius: 6px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.3s, color 0.3s;
+}
