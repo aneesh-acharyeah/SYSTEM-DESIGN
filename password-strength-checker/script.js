@@ -28,7 +28,7 @@ function getPasswordStrength(password) {
   if (/[A-Z]/.test(password)) strengthScore++;
   if (/[0-9]/.test(password)) strengthScore++;
   if (/[\W_]/.test(password)) strengthScore++;
-
+// 
   if (strengthScore <= 1) return "weak";
   if (strengthScore === 2 || strengthScore === 3) return "medium";
   return "strong";
