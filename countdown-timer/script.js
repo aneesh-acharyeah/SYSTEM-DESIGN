@@ -1,4 +1,5 @@
-const endDate = new Date("2025-12-31T23:59:59").getTime();
+
+const endDate = new Date("2025-12-31T23:59:59").getTime(); // declare the end date 
 
 const daysEl = document.getElementById("days");
 const hoursEl = document.getElementById("hours");
@@ -7,7 +8,7 @@ const secondsEl = document.getElementById("seconds");
 const messageEl = document.getElementById("end-message");
 
 function updateCountdown() {
-    const now = newDate().getTime();
+    const now = new Date().getTime();
     const gap = endDate - now;
 
     if (gap <= 0) {
@@ -15,10 +16,10 @@ function updateCountdown() {
         messageEl.textContent = "🎉 Countdown Complete!";
         return;
     }
-    const seconds = Math.floow((gap / 1000) % 60);
-    const minutes = Math.floow((gap / 1000) % 60);
-    const hours = Math.floow((gap / 1000) % 60);
-    const days = Math.floow((gap / 1000) % 60);
+    const seconds = Math.floor((gap / 1000) % 60);
+    const minutes = Math.floor((gap / 1000 / 60) % 60);
+    const hours = Math.floor((gap / (1000 * 60 * 60)) % 24);
+    const days = Math.floor((gap / (1000 * 60 * 60 * 24)));
 
     daysEl.textContent = days.toString().padStart(2, "0");
     hoursEl.textContent = hours.toString().padStart(2, "0");
