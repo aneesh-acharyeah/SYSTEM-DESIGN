@@ -1,0 +1,47 @@
+body {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #f0f4f8;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    background-color: white;
+    padding: 2rem;
+    border-radius: 12px;
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+h1{
+    margin-bottom: 1rem;
+}
+
+.countdown{
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    font-size: 2rem;
+}
+
+.countdown div{
+    background-color: #e2e8f0;
+    padding: 1rem;
+    border-radius: 10px;
+    width: 80px;
+}
+small{
+    display: block;
+    font-size: 0.8rem;
+    margin-top: 0.3rem;
+}
+
+#end-message{
+    margin-top: 1rem;
+    font-weight: bold;
+    color:#ef4444 ;
+}
