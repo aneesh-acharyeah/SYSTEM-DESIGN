@@ -12,11 +12,10 @@ body {
   width: 320px;
   background-color: white;
   border-radius: 12px;
-  padding: 2rem;
+  padding: 2rem 1.5rem;
   box-shadow: 0 6px 16px rgba(0, 0, 0, 0.1);
   text-align: center;
 }
-
 .skeleton {
   background-color: #e2e8f0;
   border-radius: 6px;
@@ -35,12 +34,17 @@ body {
   background: linear-gradient(90deg, transparent, #f8fafc, transparent);
   animation: shimmer 1.5s infinite;
 }
-
+.info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.6rem;
+}
 .avatar {
   width: 80px;
   height: 80px;
   border-radius: 50%;
-  margin: 0 auto 1rem;
+  margin: 0 auto 1.2rem;
 }
 
 .title {
